@@ -1,0 +1,59 @@
+<html>
+<head>
+<style>
+.container-login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.middle-login {
+    background: rgba(40,57,101,.7);
+    width:470px;
+    height: 490px;
+    //position: relative;
+    //padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.btn-success {
+    background: #f1b80e;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 60px;
+    margin-top: 20px;
+    color: #fff;
+}
+.form-input {
+    border-radius: 30px;
+    padding: 10px 25px;
+    width: 65%;
+}
+
+#abc {
+    margin-top: 140px;
+}
+</style>
+</head>
+<body>
+<div class="container-login" style="background-image:url(https://i1.wp.com/somaiyavidyavihar.blog/wp-content/uploads/2018/12/Chess-at-Somaiya-Vidyavihar.png);">
+
+<center>
+<br>
+<br>
+<br>
+<div class="middle-login">
+<form action="signin.php" method="post"><br>
+<div id="abc">
+<input type="text" class="form-input" name="email" placeholder="Email/Mobile" autocomplete="on" autofocus="autofocus"><br><br>
+<input type="password" class="form-input" name="password" placeholder="Password" autofocus="autofocus"><br><br>
+<input type="submit" class="btn-success" value="LOGIN">
+</div>
+</form>
+</div>
+</center>
+</div>
+</body>
+</html>
